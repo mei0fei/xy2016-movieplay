@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    android:orientation="vertical">
+    <!--网络视频列表-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/thumbnail4"
+            android:layout_width="150dp"
+            android:layout_height="100dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/movie_name4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#07a" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/summary4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#07a" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="时长："
+                    android:textColor="#840" />
+
+                <TextView
+                    android:id="@+id/duration4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#840" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
